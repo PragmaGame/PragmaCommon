@@ -1,15 +1,11 @@
 ﻿{
   "name": "com.pragma.common",
   "displayName": "Pragma Common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Pragma",
     "email": "pragmagame@gmail.com",
     "url": "https://github.com/PragmaGame"
   },
-  "license": "MIT",
-  "dependencies": 
-  {
-    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
-  }
+  "license": "MIT"
 }

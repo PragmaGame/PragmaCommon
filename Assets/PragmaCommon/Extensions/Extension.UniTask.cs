@@ -1,4 +1,6 @@
-﻿using System;
+﻿#if UNITASK
+
+using System;
 using System.Collections.Generic;
 using System.Threading;
 using Cysharp.Threading.Tasks;
@@ -58,3 +60,5 @@ namespace Pragma.Common
         }
     }
 }
+
+#endif
