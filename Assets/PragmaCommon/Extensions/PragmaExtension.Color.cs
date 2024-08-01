@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         public static Color RandomBright => new Color(Random.Range(.4f, 1), Random.Range(.4f, 1), Random.Range(.4f, 1));
 		public static Color RandomDim => new Color(Random.Range(.4f, .6f), Random.Range(.4f, .8f), Random.Range(.4f, .8f));

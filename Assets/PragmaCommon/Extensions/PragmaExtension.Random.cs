@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 namespace Pragma.Common
 {
     //Random
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         /// <summary>
         /// Gets a random Vector2 of length 1 pointing in a random direction.

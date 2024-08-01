@@ -7,7 +7,7 @@ using RandomUnity = UnityEngine.Random;
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
 	    private static readonly RandomSystem random = new RandomSystem();
 	    

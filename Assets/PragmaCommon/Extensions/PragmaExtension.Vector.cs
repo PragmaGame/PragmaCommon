@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
 	    public static Vector2 ToVector2XZ(this Vector3 vector3)
 		{

@@ -9,7 +9,7 @@ using Object = UnityEngine.Object;
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         public static IEnumerable<T> GetAssets<T>(string t = "ScriptableObject") where T : Object
         {

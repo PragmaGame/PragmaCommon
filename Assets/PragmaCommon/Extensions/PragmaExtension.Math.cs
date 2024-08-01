@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         /// <summary>
         /// Maps a value from [sourceFrom..sourceTo] to [targetFrom..targetTo] with clamping.

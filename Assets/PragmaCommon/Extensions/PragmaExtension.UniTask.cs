@@ -7,7 +7,7 @@ using Cysharp.Threading.Tasks;
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         public static async UniTask Timer(float time, 
             float countdown, 

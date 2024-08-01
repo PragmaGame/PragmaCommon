@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         private const float MAX_TIME = 1f;
         

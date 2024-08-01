@@ -2,7 +2,7 @@
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         /// <summary>
         /// Extends/shrinks the rect by extendDistance to each side and gets a random position from the resulting rect.

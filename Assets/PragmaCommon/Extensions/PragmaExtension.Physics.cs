@@ -2,7 +2,7 @@
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         /// <summary>
         /// Creates a Bounds encapsulating all given colliders bounds.

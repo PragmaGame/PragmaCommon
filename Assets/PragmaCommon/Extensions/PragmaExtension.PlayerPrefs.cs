@@ -2,7 +2,7 @@
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         /// <summary>
         /// Returns the value corresponding to the key in the preference file if it exists.

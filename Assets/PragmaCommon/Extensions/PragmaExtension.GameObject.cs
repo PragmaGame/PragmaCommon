@@ -6,7 +6,7 @@ using Object = UnityEngine.Object;
 namespace Pragma.Common
 {
     // GameObject and Transform
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         public static void GetComponentIfNull<T>(ref T component, GameObject gameObject) where T : Component
         {

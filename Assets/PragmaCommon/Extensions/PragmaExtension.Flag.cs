@@ -2,7 +2,7 @@
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         public static bool IsHasFlag(int hash, int value)
         {

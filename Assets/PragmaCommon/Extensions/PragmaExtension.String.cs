@@ -1,8 +1,10 @@
-﻿using System.Text;
+﻿using System;
+using System.Text;
+using UnityEngine;
 
 namespace Pragma.Common
 {
-    public static partial class Extension
+    public static partial class PragmaExtension
     {
         public static string ToSnakeCase(this string str)
         {
