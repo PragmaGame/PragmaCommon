@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -466,6 +467,25 @@ namespace Pragma.Common
 		        IList<T> iList => iList,
 		        var _ => new List<T>(list)
 	        };
-        }   
+        }
+        
+        public static bool TryFindByType<TItem>(this IEnumerable source, out TItem item)
+        {
+	        item = FindByType<TItem>(source);
+	        return item != null;
+        }
+        
+        public static TItem FindByType<TItem>(this IEnumerable source)
+        {
+	        foreach (var item in source)
+	        {
+		        if (item is TItem convert)
+		        {
+			        return convert;
+		        }
+	        }
+
+	        return default;
+        }
     }
 }

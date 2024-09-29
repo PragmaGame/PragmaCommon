@@ -12,6 +12,16 @@ namespace Pragma.Common
             return Mathf.Approximately(value,1f);
         }
         
+        public static float BoolToFloat(this bool value)
+        {
+            return value ? 1f : 0f;
+        }
+        
+        public static int BoolToInt(this bool value)
+        {
+            return value ? 1 : 0;
+        }
+        
         public static string DateTimeToString(this DateTime dateTime)
         {
             return dateTime.ToBinary().ToString();
