@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.Plastic.Newtonsoft.Json;
 using UnityEngine;
 
 namespace Pragma.Common
@@ -44,7 +43,7 @@ namespace Pragma.Common
 			try
 			{
 				if (!string.IsNullOrEmpty(stringValue))
-					return JsonConvert.DeserializeObject<T>(stringValue);
+					return JsonUtility.FromJson<T>(stringValue);
 
 				return defaultValue;
 			}
@@ -65,7 +64,7 @@ namespace Pragma.Common
 
 			_tempDictionary[withPrefix].Value = data;
 
-			PlayerPrefs.SetString(withPrefix, JsonConvert.SerializeObject(data));
+			PlayerPrefs.SetString(withPrefix, JsonUtility.ToJson(data));
 
 			TryAddKey(key);
 		}
